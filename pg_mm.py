@@ -1,0 +1,15 @@
+import pyautogui as pg
+import time
+pg.hotkey('ctrl','winleft','d')
+pg.hotkey('winleft')
+pg.typewrite('chrome\n',0.5)
+pg.hotkey('winleft','up')
+pg.typewrite('instagram\n',0.5)
+pg.moveTo(170,237,3)
+pg.click()
+pg.moveTo(918,699,2)
+pg.click()
+pg.typewrite('miamurphy144@gmail.com',.2)
+pg.hotkey('tab')
+time.sleep(1)
+pg.typewrite(pg.password(text='', title='', default='', mask='*'),.2)
